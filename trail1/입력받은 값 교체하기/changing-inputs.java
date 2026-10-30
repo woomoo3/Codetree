@@ -9,8 +9,8 @@ public class Main {
         int temp = a;
         a = b;
         b = temp;
-        if(1<=a || a<=100) {
-            if(1<=b || b<=100) {
+        if(1<=a && a<=100) {
+            if(1<=b && b<=100) {
                 System.out.println(a+" "+b);
             }
         }
