@@ -8,6 +8,6 @@ public class Main {
         String[] arr = str.split("-");
         String xxxx = arr[1];
         String yyyy = arr[2];
-        System.out.println("010-"+yyyy+"-"+xxxx);
+        System.out.println(arr[0]+"-"+yyyy+"-"+xxxx);
     }
 }
