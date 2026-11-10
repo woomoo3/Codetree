@@ -7,10 +7,24 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         
-        int first = (a < b) ? 1 : 0 ;
-        int second = (a == b) ? 1 : 0 ;
+        // 방법 1
+        if  (a < b) {
+            System.out.print(1 + " ");
+        } else {
+            System.out.print(0 + " ");
+        }
 
-        System.out.println(first+" "+second);
+        if (a == b) {
+            System.out.print(1);
+        } else {
+            System.out.print(0);
+        }
+
+        // 방법 2
+        // int first = (a < b) ? 1 : 0 ;
+        // int second = (a == b) ? 1 : 0 ;
+
+        // System.out.println(first+" "+second);
 
     }
 }
